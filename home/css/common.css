@@ -111,9 +111,4 @@ gap:10px;
 .marquee:hover .marquee__track {
   animation-play-state: paused;
 }
-/* tablet */
-@media screen and (min-width:768px) and (max-width:991.98px){
-    .container{
-        margin: 0 40px;
-    }
-}
+
