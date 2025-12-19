@@ -1,0 +1,119 @@
+:root {
+--primary-color: #F9EFEC;
+--secondary-color: #B3B3B2;
+--background-color:#1A1A1A;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+      font-family: "Roboto Flex", sans-serif;
+      background-color: #0f0f0f;
+}
+.container{
+    margin: 0 50px;
+}
+.btn-arrow-top-right{
+    border-radius: 100px;
+    border: 1px solid #262626;
+    background-color: #0F0F0F;
+    padding: 22px 23px;
+}
+.btn-arrow-top-right img{
+position: relative;
+top:3px;
+}
+.text-side-btn{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B3B3B2;
+}
+.wrap-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.section-header{
+    border-radius: 16px;
+    padding: 50px 300px 50px 50px;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.section-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    color: #F9EFEC;
+}
+.section-header--between{
+padding: 50px;
+}
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius: 12px;
+margin-top: 90px;
+  margin-left: -60px;
+margin-right: -60px;
+}
+.marquee-media{
+      overflow: hidden;
+  white-space: nowrap;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.marquee-media .marquee__content{
+background-color: #1A1A1A;
+}
+
+.marquee__track {
+  display: flex;
+  width: 1167px;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee__content {
+  display: flex;
+  align-items: center;
+padding: 20px 0;
+background-color: #0F0F0F;
+justify-content: space-between;
+gap:10px;
+}
+.marquee__dot{
+    color:#CE7D63;
+}
+.marquee__item{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color:#676665;
+    margin: 0 20px;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee:hover .marquee__track {
+  animation-play-state: paused;
+}
+/* tablet */
+@media screen and (min-width:768px) and (max-width:991.98px){
+    .container{
+        margin: 0 40px;
+    }
+}

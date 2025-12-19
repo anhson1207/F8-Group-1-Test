@@ -1,0 +1,38 @@
+.cta{
+    margin-top: 120px;
+}
+.cta-inner{
+    background-color: #CE7D63;
+    border-radius: 20px;
+    padding: 80px;
+    display: flex;
+    gap: 250px;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta-title{
+    color: #0f0f0f;
+    font-weight: 500;
+    font-size: 58px;
+}
+.cta-desc{
+    margin-top: 5px;
+    color: #262626;
+    line-height: 150%;
+    font-size: 18px;
+    font-weight: normal;
+}
+.cta-btn{
+    border-radius: 12px;
+    padding: 18px 34px;
+    background-color: #0F0F0F;
+    display: flex;
+    gap:15px;
+    color: #F3DFD8;
+    font-weight: 500;
+    font-size: 18px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    align-self: flex-end;
+}
