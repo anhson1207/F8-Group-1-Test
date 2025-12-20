@@ -36,4 +36,39 @@
     cursor: pointer;
     align-self: flex-end;
 }
+@media screen and (min-width:768px) and (max-width:991.98px){
+    .cta{
+        margin-top: 60px;
+    }
+.cta-inner{
+    padding: 40px;
+    border-radius: 8px;
+    gap: 60px;
+}
+.cta-title{
+    font-size: 21px;
+}
+.cta-btn{
+    border-radius: 7px;
+    padding: 8px 9px;
+    gap: 2px;
+}
+.cta-btn span{
+    font-size: 6px;
+    display: inline-block;
+    width: 65px;
+}
+.cta-desc{
+    font-size: 7px;
+}
+.cta-btn img{
+    width: 7px;
+}
+.marquee-cta{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
 
+}

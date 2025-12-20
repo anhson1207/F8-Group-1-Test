@@ -175,4 +175,128 @@ gap:11px;
     font-weight: normal;
  }
  /* tablet */
+@media screen and (min-width:768px) and (max-width:991.98px){
+    .footer{
+        margin-top: 10px;
+    }
+.footer-inner{
+    gap: 5px;
+}
+.footer-left{
+    flex: 0 0 41%;
+    gap: 5px;
+}
+.footer-socials{
+    gap: 5px;
+    align-content: flex-start;
+}
+.footer-social{
+    padding: 20px;
+    border-radius: 7px;
+    width: calc((100% - 5px) / 2);
+}
+.footer-social__icon{
+    border-radius: 5px;
+    padding: 4px 5px;
+    display: flex;
+    align-items: center;
+}
+.footer-social__icon img{
+    width: 14px;
+}
+.footer-social__header{
+    gap:5px;
+}
+.footer-social__arrow{
+    padding: 1px 7px;
+}
+.footer-social__arrow img{
+width: 7px;
+position: relative;
+top:-2px;
+}
+.footer-social__item{
+    gap: 40px;
+}
+.footer-social__title{
+    font-size: 15px;
+}
+.footer-social__desc{
+    font-size: 6px;
+}
+.footer-links{
+    padding: 12px 20px;
+    border-radius: 7px;
+    gap: 30px;
+}
+.footer-links__col{
+    width: calc((100% - 30px * 3) / 4);
+    gap: 15px;
+}
+.footer-links__title{
+    font-size: 12px;
+}
+.footer-links__list li a{
+    font-size: 6px;
+}
+.footer-right{
+    min-width: 0;
+    gap: 5px;
+}
+.footer-links__list{
+    gap:9px;
+}
+.badge {
+    border-radius: 3px;
+    border: 1px solid #333333;
+    padding: 4px 7px;
+    background-color: #262626;
+    font-size: 4px;
+    color: #CCCCCC;
+    font-weight: normal;
+    margin-left: 2px;
+}
+.footer-newsletter{
+    padding: 20px;
+    border-radius: 7px;
+}
+.footer-newsletter__text{
+    font-size: 10px;
+}
+.footer-newsletter__title{
+    font-size: 12px;
+}
+.footer-newsletter__form input {
+    border: none;
+    border-bottom: 1px solid #333333;
+    padding: 8px 7px;
+    background-color: transparent;
+    outline: none;
+    font-size: 12px;
+    color: #676665;
+    flex: 1;
+}
+.footer-newsletter__form {
 
+gap: 5px;}
+.btn-newsletter img{
+    width: 7px;
+}
+.btn-newsletter{
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 20px;
+}
+.footer-bottom{
+    border-radius: 7px;
+    padding: 20px;
+}
+.footer-bottom span{
+    font-size: 7px;
+}
+.footer-bottom__links a{
+    font-size: 7px;
+}
+}

@@ -76,3 +76,50 @@
     border-radius: 100px;
     padding: 14px;
 }
+@media screen and (min-width:768px) and (max-width:991.98px){
+.text-side-btn-testimonials{
+    font-size: 12px;
+}
+.testimonial-content{
+    padding: 10px;
+}
+.testimonial-card{
+    width: calc((100% - 5px * 3) / 4);
+    border-radius: 7px;
+}
+.testimonials{
+    gap:5px;
+    padding: 5px;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+.testimonial-title{
+    font-size: 10px;
+    margin-bottom: 12px;
+}
+.testimonial-desc{
+    font-size: 8px;
+}
+.testimonial-footer{
+    padding: 10px;
+}
+.testimonial-author img{
+    width: 30px;
+}
+.author-name{
+    font-size: 10px;
+}
+.author-role{
+    font-size: 7px;
+}
+.testimonial-author{
+    gap:5px;
+}
+.btn-arrow{
+    padding: 1px 4px;
+}
+.btn-arrow img{
+    width: 12px;
+}
+}

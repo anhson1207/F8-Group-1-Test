@@ -50,3 +50,37 @@
 .card-title--services{
     height: auto;
 }
+@media screen and (min-width:768px) and (max-width:991.98px){
+.services{
+    gap:5px;
+    padding: 5px;
+    margin-top: 60px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+.service-card {
+    width: calc((100% - 5px) / 2);
+}
+.card-content___header-left img {
+    border-radius: 5px;
+    border: 1px solid #333333;
+    padding: 2px;
+    width: 24px;
+}
+.btn-arrow-top-right--services{
+    padding: 2px 6px;
+}
+.text-side-btn--services{
+    font-size: 10px;
+}
+.card-desc--services {
+margin-top: 25px;
+}
+.price{
+    font-size: 10px;
+    margin-top: 20px;
+}
+.card-grid .service-card:last-child .price{
+    padding-top: 12px;
+}
+}

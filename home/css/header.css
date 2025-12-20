@@ -36,6 +36,26 @@
     line-height: 150%;
     color:#81807E;
 }
+/* tablet */
+@media screen and (min-width:768px) and (max-width:991.98px){
+    .header{
+        border-radius: 10px;
+    }
+    .header-container{
+        padding: 20px 20px 20px 40px;
+    }
+    .logo img{
+        width: 80px;
+    }
+    .menu-item{
+        display: flex;
+        align-items: center;
+    border-radius: 4px;
+    padding: 6px 10px;
+    background-color: #0F0F0F;
 
-
-
+    }
+    .menu-item a{
+        font-size: 5px;
+    }
+}
